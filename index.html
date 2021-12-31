@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        p {
+            text-align: end;
+            font-size: 30px;
+            margin-top: 10px;
+            color: beige;
+        }
+    </style>
+    <script type="text/javascript" src="timer.js"></script>
+    <script>
+        var script = document.createElement('script');
+        script.src = 'fireworks.js';
+        script.type = 'text/javascript';
+        document.getElementsByTagName('head')[0].appendChild(script);
+    </script>
+    <link href='https://fonts.googleapis.com/css?family=Vibur:400' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div id="snowflakes-container"></div>
+    <script src="https://unpkg.com/magic-snowflakes/dist/snowflakes.min.js"></script>
+
+    <script>
+        var snowflakes = new Snowflakes({
+
+        });
+    </script>
+
+    <div class="happy">Happy New Year</div>
+    <div class="new_year">
+        <span>202</span>
+        <span class="eight">1</span>
+        <span class="nine">2</span>
+        <div class="balloon"></div>
+    </div>
+    <div class="fireworks">
+        <div class="f1">
+            <span><i></i></span>
+            <span><i></i></span>
+            <span><i></i></span>
+        </div>
+        <div class="f2">
+            <span><i></i></span>
+            <span><i></i></span>
+            <span><i></i></span>
+        </div>
+        <div class="f3">
+            <span><i></i></span>
+            <span><i></i></span>
+            <span><i></i></span>
+        </div>
+        <div class="f4">
+            <span><i></i></span>
+            <span><i></i></span>
+            <span><i></i></span>
+        </div>
+    </div>
+    <p id=""></p>
+</body>
+
+</html>
